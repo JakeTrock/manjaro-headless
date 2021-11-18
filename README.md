@@ -15,7 +15,7 @@ https://manjaro.org/downloads/official/xfce/
 
 # Run the automated installer
 
-```git clone https://github.com/88plug/manjaro-headless ; cd manjaro-headless ; chmod +x run.sh ; sudo ./run.sh```
+```git clone https://github.com/JakeTrock/manjaro-headless ; cd manjaro-headless ; chmod +x run.sh ; sudo ./run.sh```
 
 # Let the machine reboot at least twice! Yes it will do it automagically :)
 
