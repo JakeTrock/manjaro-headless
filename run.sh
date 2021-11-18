@@ -107,9 +107,6 @@ EOT
 echo "Starting and enabling the jail/fail2ban"
 systemctl start fail2ban.service
 systemctl enable fail2ban.service
-echo "Starting and enabling the docker"
-systemctl start docker.service
-systemctl enable docker.service
 echo "Rebooting for the last time..."
 ufw --force enable
 echo "You can login after this reboot - don't forget to set your hostname with : sudo hostnamectl set-hostname deathstar"
